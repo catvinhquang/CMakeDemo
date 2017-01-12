@@ -1,0 +1,118 @@
+
+{
+	"buildFiles" : [ "/home/quangcat/Documents/CMakeDemo/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/quangcat/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/quangcat/Documents/CMakeDemo/app/.externalNativeBuild/cmake/debug/mips --target clean"
+	],
+	"libraries" : 
+	{
+		"avcodec-lib-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "avcodec-lib",
+			"buildType" : "debug",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/mips/libavcodec.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"avdevice-lib-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "avdevice-lib",
+			"buildType" : "debug",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/mips/libavdevice.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"avfilter-lib-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "avfilter-lib",
+			"buildType" : "debug",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/mips/libavfilter.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"avformat-lib-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "avformat-lib",
+			"buildType" : "debug",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/mips/libavformat.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"avresample-lib-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "avresample-lib",
+			"buildType" : "debug",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/mips/libavresample.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"avutil-lib-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "avutil-lib",
+			"buildType" : "debug",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/mips/libavutil.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"native-lib-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/quangcat/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/quangcat/Documents/CMakeDemo/app/.externalNativeBuild/cmake/debug/mips --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain /home/quangcat/Android/Sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/quangcat/Android/Sdk/ndk-bundle/platforms/android-15/arch-mips -Dnative_lib_EXPORTS -I../../../../src/main/jni/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jni/native-lib.c",
+					"workingDirectory" : "/home/quangcat/Documents/CMakeDemo/app/.externalNativeBuild/cmake/debug/mips"
+				}
+			],
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/build/intermediates/cmake/debug/obj/mips/libnative-lib.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"postproc-lib-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "postproc-lib",
+			"buildType" : "debug",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/mips/libpostproc.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"swresample-lib-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "swresample-lib",
+			"buildType" : "debug",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/mips/libswresample.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"swscale-lib-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "swscale-lib",
+			"buildType" : "debug",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/mips/libswscale.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"x264-lib-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "x264-lib",
+			"buildType" : "debug",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/mips/libx264.so",
+			"toolchain" : "7524022781472829115"
+		}
+	},
+	"toolchains" : 
+	{
+		"7524022781472829115" : 
+		{
+			"cCompilerExecutable" : "/home/quangcat/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/quangcat/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

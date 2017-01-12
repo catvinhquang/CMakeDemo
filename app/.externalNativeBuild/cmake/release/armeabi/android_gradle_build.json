@@ -1,0 +1,118 @@
+
+{
+	"buildFiles" : [ "/home/quangcat/Documents/CMakeDemo/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/quangcat/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/quangcat/Documents/CMakeDemo/app/.externalNativeBuild/cmake/release/armeabi --target clean"
+	],
+	"libraries" : 
+	{
+		"avcodec-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "avcodec-lib",
+			"buildType" : "release",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/armeabi/libavcodec.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"avdevice-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "avdevice-lib",
+			"buildType" : "release",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/armeabi/libavdevice.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"avfilter-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "avfilter-lib",
+			"buildType" : "release",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/armeabi/libavfilter.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"avformat-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "avformat-lib",
+			"buildType" : "release",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/armeabi/libavformat.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"avresample-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "avresample-lib",
+			"buildType" : "release",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/armeabi/libavresample.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"avutil-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "avutil-lib",
+			"buildType" : "release",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/armeabi/libavutil.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"native-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/home/quangcat/Android/Sdk/cmake/3.6.3155560/bin/cmake --build /home/quangcat/Documents/CMakeDemo/app/.externalNativeBuild/cmake/release/armeabi --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain /home/quangcat/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/quangcat/Android/Sdk/ndk-bundle/platforms/android-15/arch-arm -Dnative_lib_EXPORTS -I../../../../src/main/jni/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jni/native-lib.c",
+					"workingDirectory" : "/home/quangcat/Documents/CMakeDemo/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/build/intermediates/cmake/release/obj/armeabi/libnative-lib.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"postproc-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "postproc-lib",
+			"buildType" : "release",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/armeabi/libpostproc.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"swresample-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "swresample-lib",
+			"buildType" : "release",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/armeabi/libswresample.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"swscale-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "swscale-lib",
+			"buildType" : "release",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/armeabi/libswscale.so",
+			"toolchain" : "7524022781472829115"
+		},
+		"x264-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "x264-lib",
+			"buildType" : "release",
+			"output" : "/home/quangcat/Documents/CMakeDemo/app/src/main/jniLibs/armeabi/libx264.so",
+			"toolchain" : "7524022781472829115"
+		}
+	},
+	"toolchains" : 
+	{
+		"7524022781472829115" : 
+		{
+			"cCompilerExecutable" : "/home/quangcat/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/quangcat/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
